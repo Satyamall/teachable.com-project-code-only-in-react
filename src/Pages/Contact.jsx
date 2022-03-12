@@ -4,6 +4,7 @@ import profile from '../images/profile.png'
 import profile2 from '../images/profile2.png'
 import profile3 from '../images/profile3.png'
 
+
 export default function Contact() {
 
     return (
