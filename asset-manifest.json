@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/teachable.com-project-code-only-in-react/static/css/main.7bc8ba4d.css",
+    "main.js": "/teachable.com-project-code-only-in-react/static/js/main.d0d3c3b8.js",
+    "index.html": "/teachable.com-project-code-only-in-react/index.html",
+    "main.7bc8ba4d.css.map": "/teachable.com-project-code-only-in-react/static/css/main.7bc8ba4d.css.map",
+    "main.d0d3c3b8.js.map": "/teachable.com-project-code-only-in-react/static/js/main.d0d3c3b8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7bc8ba4d.css",
+    "static/js/main.d0d3c3b8.js"
+  ]
+}
