@@ -1,5 +1,8 @@
 
 import style from "./Contact.module.css";
+import profile from '../images/profile.png'
+import profile2 from '../images/profile2.png'
+import profile3 from '../images/profile3.png'
 
 export default function Contact() {
 
@@ -8,7 +11,7 @@ export default function Contact() {
             <h1>Contact Us from below given Descriptions to any One</h1>
             <div className={style.box}>
                 <div className={style.box1}>
-                    <img src="/images/profile.png" alt="Satya" />
+                    <img src={profile} alt="Satya" />
                 </div>
                 <div className={style.box2}>
                     <h3>Name: Satya Prakash Mall</h3>
@@ -25,7 +28,7 @@ export default function Contact() {
             </div>
             <div className={style.box}>
                 <div className={style.box1}>
-                    <img src="/images/profile2.png" alt="Jaswant" />
+                    <img src={profile2} alt="Jaswant" />
                 </div>
                 <div className={style.box2}>
                     <h3>Name: Jaswant Chaudhary</h3>
@@ -42,7 +45,7 @@ export default function Contact() {
             </div>
             <div className={style.box}>
                 <div className={style.box1}>
-                    <img src="/images/profile3.png" alt="Paarug" />
+                    <img src={profile3} alt="Paarug" />
                 </div>
                 <div className={style.box2}>
                     <h3>Name: Paarug Sethi</h3>

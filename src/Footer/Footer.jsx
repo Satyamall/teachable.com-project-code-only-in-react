@@ -1,6 +1,12 @@
 
 import { Link } from "react-router-dom";
 import style from './Footer.module.css';
+import google from '../images/google.png';
+import facebook from '../images/facebook.jpg';
+import youtube from '../images/youtube.jpg';
+import instagram from '../images/instagram.jpg';
+import twitter from '../images/twitter.png';
+import linkedin from '../images/linkedin.png';
 
 export default function Footer() {
 
@@ -93,22 +99,22 @@ export default function Footer() {
                 </div>
                 <div className={style.imagebox}>
                     <a href="https://www.google.com/">
-                        <img src="/images/google.png" alt="Google" width="40px" />
+                        <img src={google} alt="Google" width="40px" />
                     </a>
                     <a href="https://www.youtube.com/">
-                        <img src="/images/youtube.jpg" alt="YouTube" width="40px" />
+                        <img src={youtube} alt="YouTube" width="40px" />
                     </a>
                     <a href="https://www.facebook.com/">
-                        <img src="/images/facebook.jpg" alt="Facebook" width="40px" />
+                        <img src={facebook} alt="Facebook" width="40px" />
                     </a>
                     <a href="https://www.instagram.com/?hl=en">
-                        <img src="/images/instagram.jpg" alt="Instagram" width="40px" />
+                        <img src={instagram} alt="Instagram" width="40px" />
                     </a>
                     <a href="https://twitter.com/">
-                        <img src="/images/twitter.png" alt="Twitter" width="40px" />
+                        <img src={twitter} alt="Twitter" width="40px" />
                     </a>
                     <a href="https://www.linkedin.com/">
-                        <img src="/images/linkedin.png" alt="LinkedIn" width="40px" />
+                        <img src={linkedin} alt="LinkedIn" width="40px" />
                     </a>
                 </div>
             </div>

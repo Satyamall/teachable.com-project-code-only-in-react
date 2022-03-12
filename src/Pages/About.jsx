@@ -2,6 +2,22 @@
 import style from './About.module.css';
 import Carousel from 'react-elastic-carousel';
 import { Link } from "react-router-dom";
+import image51 from '../images/image51.webp';
+import image52 from '../images/image52.webp';
+import image53 from '../images/image53.webp';
+import image54 from '../images/image54.webp';
+import image55 from '../images/image55.webp';
+import image56 from '../images/image56.webp';
+import image57 from '../images/image57.jpg';
+import image58 from '../images/image58.webp';
+import image59 from '../images/image59.webp';
+import image60 from '../images/image60.webp';
+import image61 from '../images/image61.webp';
+import image62 from '../images/image62.webp';
+import image63 from '../images/image63.webp';
+import image64 from '../images/image64.webp';
+import image65 from '../images/image65.webp';
+import image66 from '../images/image66.webp';
 
 export default function About() {
 
@@ -12,7 +28,7 @@ export default function About() {
                     <h1>There had to be a better way. <br /> <span>So we built it.</span></h1>
                 </div>
                 <div className={style.box1bottom}>
-                    <img src="/images/image51.webp" alt="" />
+                    <img src={image51} alt="" />
                 </div>
             </div>
             <div className={style.box2}>
@@ -30,7 +46,7 @@ export default function About() {
                     <p>Ankur Nagpal : Founder</p>
                 </div>
                 <div className={style.box3right}>
-                    <img src="/images/image52.webp" alt="" />
+                    <img src={image52} alt="" />
                 </div>
             </div>
 
@@ -45,12 +61,12 @@ export default function About() {
             <div className={style.box5}>
                 <Carousel>
                     <div className={style.image}>
-                        <img src="/images/image53.webp" alt="" />
-                        <img src="/images/image54.webp" alt="" />
+                        <img src={image53} alt="" />
+                        <img src={image54} alt="" />
                     </div>
                     <div className={style.image}>
-                        <img src="/images/image55.webp" alt="" />
-                        <img src="/images/image56.webp" alt="" />
+                        <img src={image55} alt="" />
+                        <img src={image56} alt="" />
                     </div>
                 </Carousel>
             </div>
@@ -67,7 +83,7 @@ export default function About() {
             </div>
 
             <div className={style.box8}>
-                <img src="/images/image57.jpg" alt="" />
+                <img src={image57} alt="" />
             </div>
             <div className={style.boxcolor}>
                 <div className={style.box9}>
@@ -84,7 +100,7 @@ export default function About() {
 
                 <div className={style.box11}>
                     <div className={style.box11left}>
-                        <img src="/images/image58.webp" alt="" />
+                        <img src={image58} alt="" />
                     </div>
                     <div className={style.box11right}>
                         <h3>Never not learning</h3>
@@ -98,7 +114,7 @@ export default function About() {
 
                 <div className={style.box12}>
                     <div className={style.box12left}>
-                        <img src="/images/image59.webp" alt="" />
+                        <img src={image59} alt="" />
                     </div>
                     <div className={style.box12right}>
                         <h3>Choose integrity</h3>
@@ -110,10 +126,10 @@ export default function About() {
 
                 <div className={style.box13}>
                     <div className={style.box13left}>
-                        <img src="/images/image61.webp" alt="" />
+                        <img src={image61} alt="" />
                     </div>
                     <div className={style.box13right}>
-                        <img src="/images/image60.webp" alt="" />
+                        <img src={image60} alt="" />
                     </div>
                 </div>
             </div>
@@ -127,16 +143,16 @@ export default function About() {
 
             <div className={style.boxcolor2}>
                 <div className={style.box15}>
-                    <img src="/images/image62.webp" alt="" />
+                    <img src={image62} alt="" />
                 </div>
                 <div className={style.box16}>
                     <div className={style.box16left}>
-                        <img src="/images/image63.webp" alt="" />
+                        <img src={image63} alt="" />
                         <h3>Hamza Qureshi</h3>
                         <p>As a product designer on the creator success team, Hamza leads initiatives that give creators full control of their schools. He has a deep interest in design thinking, user experience principles, and spatial design, as well as record collecting, pop culture, random music trivia, and much more. He’s currently learning how to incorporate motion design into his work.</p>
                     </div>
                     <div className={style.box16right}>
-                        <img src="/images/image64.webp" alt="" />
+                        <img src={image64} alt="" />
                         <h3>Calvin Sewell</h3>
                         <p>Calvin oversees system administration and management of Teachable's in-house information technology. Outside of work, he has a wide range of interests including martial arts, computer hardware, video-game hacking, sewing, biotechnology, and queer representation in children's media—but he’s not stopping there! He’s also currently learning about Japanese, mechanical keyboards, and orchid care.</p>
                     </div>
@@ -144,12 +160,12 @@ export default function About() {
 
                 <div className={style.box17}>
                     <div className={style.box17left}>
-                        <img src="/images/image65.webp" alt="" />
+                        <img src={image65} alt="" />
                         <h3>Caitlin Miller</h3>
                         <p>Cait manages content marketing at Teachable. While every day on the job is different, her main goal is finding inventive new ways to make our website a valuable and helpful resource for creators. She enjoys writing witty captions, running marathons, collecting vinyl records, and plant parenting. She’s currently learning how to embroider.</p>
                     </div>
                     <div className={style.box17right}>
-                        <img src="/images/image66.webp" alt="" />
+                        <img src={image66} alt="" />
                         <h3>Sana Ahmed</h3>
                         <p>Planning is a natural talent of Sana’s, and it shows. At Teachable, she’s responsible for company culture events, onboarding, facilities, and more. Outside of work, she loves planning vacations on a budget, putting together travel itineraries with a mix of local and tourist stops.</p>
                     </div>

@@ -2,6 +2,16 @@
 import style from "./Home.module.css";
 import { Link } from 'react-router-dom';
 import SecondFooter from "../Footer/SecondFooter";
+import image1 from "../images/image1.webp";
+import image2 from "../images/image2.jpg";
+import image3 from "../images/image3.webp";
+import image4 from "../images/image4.webp";
+import image5 from "../images/image5.webp";
+import image6 from "../images/image6.webp";
+import image7 from "../images/image7.webp";
+import image8 from "../images/image8.webp";
+import image9 from "../images/image9.webp";
+import image10 from "../images/image10.webp";
 
 export default function Home() {
 
@@ -19,7 +29,7 @@ export default function Home() {
                     </div>
                 </div>
                 <div className={style.imagebox1}>
-                    <img src="/images/image1.webp" alt="" />
+                    <img src={image1} alt="" />
                 </div>
             </div>
             <div className={style.box2}>
@@ -27,14 +37,14 @@ export default function Home() {
             </div>
 
             <div className={style.box3}>
-                <img src="/images/image2.jpg" alt="" />
+                <img src={image2} alt="" />
                 <p>Build a course, build a brand, build a business. <br /> Here is what Teachable can do for you.</p>
                 <a href="https://lms-client-server-app.netlify.app/auth" className={style.box3link}>Get Started for free</a>
             </div>
 
             <div className={style.box4}>
                 <div className={style.imagebox4}>
-                    <img src="/images/image3.webp" alt="" />
+                    <img src={image3} alt="" />
                 </div>
                 <div className={style.rightbox4}>
                     <p>Join more than 100,000 creators who’ve <span>sold over $1 billion in courses and coaching.</span></p>
@@ -77,12 +87,12 @@ export default function Home() {
                      <p>Julia Stoian : Live. Write. Thrive</p>
                  </div>
                  <div className={style.box6right}>
-                     <img src="/images/image4.webp" alt="" />
+                     <img src={image4} alt="" />
                  </div>
             </div>
 
             <div className={style.box7}>
-                 <img src="/images/image5.webp" alt="" />
+                 <img src={image5} alt="" />
                  <div className={style.box7text}>
                      <div>Featured Course</div>
                      <h1>Your Home Filming Studio</h1>
@@ -102,21 +112,21 @@ export default function Home() {
                       <h5>:art</h5>
                       <h1>Master the Garden Rose by Catherine Oxley</h1>
                       <p>Discover the artform of paper flower making to create realistic garden roses.</p>
-                      <img src="/images/image6.webp" alt="" />
+                      <img src={image6} alt="" />
                       <Link className={style.box9link}>View Course</Link>
                   </div>
                   <div  className={style.box9content}>
                       <h5>:marketing</h5>
                       <h1>Podcast Like the Pros by Jay Clouse</h1>
                       <p>Find out how to produce a high-quality podcast—even with a small team and budget.</p>
-                      <img src="/images/image7.webp" alt="" />
+                      <img src={image7} alt="" />
                       <Link className={style.box9link}>View Course</Link>
                   </div>
                   <div  className={style.box9content}>
                       <h5>:sports</h5>
                       <h1>The Confident Infielder by Doug Bernier</h1>
                       <p>Learn elite infield fundamentals straight from a former Major League Baseball player.</p>
-                      <img src="/images/image8.webp" alt="" />
+                      <img src={image8} alt="" />
                       <Link className={style.box9link}>View Course</Link>
                   </div>
             </div>
@@ -128,13 +138,13 @@ export default function Home() {
                     <Link className={style.box9link}>Register for webinar</Link>
                 </div>
                 <div className={style.box10right}>
-                    <img src="/images/image9.webp" alt="" />
+                    <img src={image9} alt="" />
                 </div>
             </div>
 
             <div className={style.box11}>
                 <div className={style.box11left}>
-                    <img src="/images/image10.webp" alt="" />
+                    <img src={image10} alt="" />
                 </div>
                 <div className={style.box11right}>
                     <p>Award-winning support for creators and businesses of all sizes and subjects.</p>

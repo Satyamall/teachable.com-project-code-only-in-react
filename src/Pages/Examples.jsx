@@ -9,6 +9,11 @@ import Niche from './ExamplesComponents/Niche';
 import Academics from './ExamplesComponents/Academics';
 import Membership from './ExamplesComponents/Membership';
 import Business from './ExamplesComponents/Business';
+import new_york_times from '../images/new_york_times.webp';
+import image11 from '../images/image11.webp';
+import image12 from '../images/image12.webp';
+import image13 from '../images/image13.webp';
+import image14 from '../images/image14.webp';
 
 export default function Examples(){
 
@@ -59,11 +64,11 @@ export default function Examples(){
             <div className={style.box2}>
                 <p>Market leaders use Teachable to enrich their brands and businesses.</p>
                 <div className={style.box2images}>
-                    <img src="/images/new_york_times.webp" alt="The New York Times" width="400px"/>
-                    <img src="/images/image11.webp" alt="inTuiT" width="180px"/>
-                    <img src="/images/image12.webp" alt="Shopify" width="180px"/>
-                    <img src="/images/image13.webp" alt="Pearson" width="180px"/>
-                    <img src="/images/image14.webp" alt="Penn Law" width="180px"/>
+                    <img src={new_york_times} alt="The New York Times" width="400px"/>
+                    <img src={image11} alt="inTuiT" width="180px"/>
+                    <img src={image12} alt="Shopify" width="180px"/>
+                    <img src={image13} alt="Pearson" width="180px"/>
+                    <img src={image14} alt="Penn Law" width="180px"/>
                 </div>
             </div>
             <SecondFooterExamples />
