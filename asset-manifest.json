@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/teachable.com-project-code-only-in-react/static/css/main.7bc8ba4d.css",
+    "main.css": "/teachable.com-project-code-only-in-react/static/css/main.2eace7ad.css",
     "main.js": "/teachable.com-project-code-only-in-react/static/js/main.4791d392.js",
     "static/media/image59.webp": "/teachable.com-project-code-only-in-react/static/media/image59.53c7bedf7aee638e6f5e.webp",
     "static/media/image57.jpg": "/teachable.com-project-code-only-in-react/static/media/image57.74efeb60a003f6ef888e.jpg",
@@ -73,11 +73,11 @@
     "static/media/image13.webp": "/teachable.com-project-code-only-in-react/static/media/image13.23b087022d5e990d55f8.webp",
     "static/media/image11.webp": "/teachable.com-project-code-only-in-react/static/media/image11.5d5ee3d522f7761b9c86.webp",
     "index.html": "/teachable.com-project-code-only-in-react/index.html",
-    "main.7bc8ba4d.css.map": "/teachable.com-project-code-only-in-react/static/css/main.7bc8ba4d.css.map",
+    "main.2eace7ad.css.map": "/teachable.com-project-code-only-in-react/static/css/main.2eace7ad.css.map",
     "main.4791d392.js.map": "/teachable.com-project-code-only-in-react/static/js/main.4791d392.js.map"
   },
   "entrypoints": [
-    "static/css/main.7bc8ba4d.css",
+    "static/css/main.2eace7ad.css",
     "static/js/main.4791d392.js"
   ]
 }
